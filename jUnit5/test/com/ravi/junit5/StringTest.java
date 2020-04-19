@@ -8,6 +8,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
@@ -171,5 +172,14 @@ class StringTest {
 					}
 				});
 	}
+	
+	//Trick 7: How to Disable a Test
+	@Test
+	@Disabled//-Before JUnit5 it was called @Ignored
+	void notRun() {
+	
+		System.out.println("Entire class can be disabled by putting this anotation on class level");
+	}
+	
 	
 }
