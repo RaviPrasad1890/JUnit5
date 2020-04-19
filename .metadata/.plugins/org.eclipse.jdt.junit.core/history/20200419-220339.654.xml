@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringTest" project="jUnit5" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ravi.junit5.StringTest" time="0.19" displayname="StringTest" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]">
+    <testcase name="testSplit" classname="com.ravi.junit5.StringTest" time="0.06" displayname="testSplit()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testSplit()]"/>
+    <testsuite name="testBasicParameterizedTest(com.ravi.junit5.StringTest)" time="0.063" displayname="testBasicParameterizedTest(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[test-template:testBasicParameterizedTest(java.lang.String)]">
+      <testcase name="testBasicParameterizedTest" classname="com.ravi.junit5.StringTest" time="0.063" dynamicTest="true" displayname="[1] ABCD" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[test-template:testBasicParameterizedTest(java.lang.String)]/[test-template-invocation:#1]"/>
+      <testcase name="testBasicParameterizedTest" classname="com.ravi.junit5.StringTest" time="0.01" dynamicTest="true" displayname="[2] ABC" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[test-template:testBasicParameterizedTest(java.lang.String)]/[test-template-invocation:#2]"/>
+      <testcase name="testBasicParameterizedTest" classname="com.ravi.junit5.StringTest" time="0.01" dynamicTest="true" displayname="[3] DE" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[test-template:testBasicParameterizedTest(java.lang.String)]/[test-template-invocation:#3]"/>
+      <testcase name="testBasicParameterizedTest" classname="com.ravi.junit5.StringTest" time="0.005" dynamicTest="true" displayname="[4] dsdsh" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[test-template:testBasicParameterizedTest(java.lang.String)]/[test-template-invocation:#4]"/>
+    </testsuite>
+    <testcase name="testContains" classname="com.ravi.junit5.StringTest" time="0.003" displayname="testContains()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testContains()]"/>
+    <testcase name="testLengthException" classname="com.ravi.junit5.StringTest" time="0.009" displayname="testLengthException()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testLengthException()]"/>
+    <testcase name="testStringEquals" classname="com.ravi.junit5.StringTest" time="0.004" displayname="When I/P String is null, throw an Exception" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testStringEquals()]"/>
+    <testcase name="testLengthBasic" classname="com.ravi.junit5.StringTest" time="0.006" displayname="testLengthBasic()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testLengthBasic()]"/>
+    <testcase name="testToUppercaseBasic" classname="com.ravi.junit5.StringTest" time="0.019" displayname="testToUppercaseBasic()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testToUppercaseBasic()]"/>
+  </testsuite>
+</testrun>

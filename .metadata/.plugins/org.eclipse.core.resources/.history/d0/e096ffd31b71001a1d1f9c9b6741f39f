@@ -1,0 +1,57 @@
+package com.ravi.junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringTest {
+
+	/*
+	@Test
+	void whatEverNameYouWant() {
+		fail("Not yet implemented");
+		//Absence of failure is success
+		
+		//Step 1: Write Test Code(Prepare data)
+		//Step 2: Invoke method--Square(40)=> Code under test
+		//Step 3: Put Checks-16=> Assertion
+	}
+
+	 */
+	
+	@Test
+	void testLengthBasic() {
+		int actualLength="ABCD".length();
+		int expectedLength=4;
+		assertEquals(expectedLength, actualLength);
+	}
+	
+	@Test
+	void testToUppercaseBasic() {
+		String str= "match";
+		String res=str.toUpperCase();
+		assertEquals("MATCH",res);
+	}
+	
+	@Test
+	void testContains() {
+		String str= "abcdefgh";
+		boolean res=str.contains("bcd");
+		//assertEquals(true,res);
+		assertTrue(res);
+		//Similarly we have below assert methods:
+		//assertFalse,assertNull,assertNotNull
+		
+	}
+	
+	@Test
+	void testSplit() {
+		String str="abc def ghi jkl";
+		String actualResult[] = str.split(" ");
+		String[] expectedResult= {"abc","def","ghi","jkl"};
+		assertArrayEquals(expectedResult,actualResult);
+		//We can use assertEquals but assertEqualsArray will give
+		//more specific message related to failure
+		
+	}
+}

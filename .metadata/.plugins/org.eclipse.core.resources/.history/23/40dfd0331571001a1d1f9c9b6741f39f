@@ -1,0 +1,19 @@
+package com.ravi.junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringTest {
+
+	@Test
+	void whatEverNameYouWant() {
+		fail("Not yet implemented");
+		//Absence of failure is success
+		
+		//Step 1:Write Test Code
+		//Step 2: Invode method
+		//Step 3: Put Checks-- Assertion
+	}
+
+}

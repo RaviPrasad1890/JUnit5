@@ -1,0 +1,28 @@
+package com.ravi.junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringTest {
+
+	/*
+	@Test
+	void whatEverNameYouWant() {
+		fail("Not yet implemented");
+		//Absence of failure is success
+		
+		//Step 1: Write Test Code(Prepare data)
+		//Step 2: Invoke method--Square(40)=> Code under test
+		//Step 3: Put Checks-16=> Assertion
+	}
+
+	 */
+	
+	@Test
+	void testOne() {
+		int actualLength="ABCD".length();
+		int expectedLength=4;
+		assertEquals(expectedLength, actualLength);
+	}
+}

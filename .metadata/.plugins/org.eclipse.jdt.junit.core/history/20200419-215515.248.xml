@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringTest" project="jUnit5" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ravi.junit5.StringTest" time="0.055" displayname="StringTest" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]">
+    <testcase name="testSplit" classname="com.ravi.junit5.StringTest" time="0.017" displayname="testSplit()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testSplit()]"/>
+    <testcase name="testContains" classname="com.ravi.junit5.StringTest" time="0.003" displayname="testContains()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testContains()]"/>
+    <testcase name="testLengthException" classname="com.ravi.junit5.StringTest" time="0.007" displayname="testLengthException()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testLengthException()]"/>
+    <testcase name="testStringEquals" classname="com.ravi.junit5.StringTest" time="0.003" displayname="When I/P String is null, throw an Exception" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testStringEquals()]"/>
+    <testcase name="testLengthBasic" classname="com.ravi.junit5.StringTest" time="0.007" displayname="testLengthBasic()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testLengthBasic()]"/>
+    <testcase name="testToUppercaseBasic" classname="com.ravi.junit5.StringTest" time="0.018" displayname="testToUppercaseBasic()" uniqueid="[engine:junit-jupiter]/[class:com.ravi.junit5.StringTest]/[method:testToUppercaseBasic()]"/>
+  </testsuite>
+</testrun>
